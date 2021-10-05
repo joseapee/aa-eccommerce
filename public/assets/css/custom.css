@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+.hidden{
+	display: none;
+}
+.navbar-custom {
+	background-color: #fff!important;
+	/*box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;*/
+}
+.app-name {
+	color: #13a6be;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Courgette', cursive;
+}
+
+.col-xl-5-mod {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 41.66667%;
+	flex: 1 0 41.66667%!important;
+	max-width: 75%!important;
+}
+.pricing-column .plan-price {
+	font-size: 25px;
+	margin-bottom: 10px;
+	color: #323a46;
+}
+.list-styled-custom {
+	padding-left: 0;
+	list-style: disclosure-closed;
+}
+.p-custom-1 {
+	padding: 0.5rem !important;
+}
+.pricing-column {
+	position: relative;
+	margin-bottom: 0px!important;
+}
+.selected-plan {
+	border: thick solid #88bade;
+	margin-bottom: 25px;
+}
+.height-700{
+	height: 700px;
+}
+.form-group .req {
+	color: #fc2d42;
+}
+.close {
+	font-size: 1.4rem;
+	font-weight: 700;
+	line-height: 1;
+	/*color: #fc2d42;*/
+	text-shadow: none;
+}
+
+/*.card-box {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+*/
+.left-side-menu {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px!important;
+}
+
+.text-secondary {
+	color: #393939 !important;
+}
+.logo.logo-dark {
+	display: block !important;
+}

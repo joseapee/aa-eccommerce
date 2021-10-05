@@ -1,0 +1,37 @@
+.search-box form input {
+	background-color: #ffff;
+}
+
+.menu-icon .cart .dropdown-menu {
+	width: auto!important;
+	max-width: 380px;
+}
+.menu-icon .cart .dropdown-menu {
+	padding: 10px 10px 25px 20px !important;
+}
+
+/*.owl-carousel .owl-item img {
+	height: 400px;
+}*/
+
+/* sweetalert formating*/
+.swal2-styled.swal2-confirm {
+	background-color: #b6795f !important;
+}
+.attachment-shop_thumbnail{
+	max-width: 50px !important;
+}
+
+.shipping-address{
+	padding-bottom: 5px!important;
+	padding-top: 5px!important;
+}
+
+.selectable:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.bold{
+	font-weight: bold!important;
+}
