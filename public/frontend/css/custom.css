@@ -35,3 +35,25 @@
 .bold{
 	font-weight: bold!important;
 }
+
+.cart-list {
+	list-style: none;
+	margin-left: 0px !important;
+	padding-left: 0;
+}
+
+.list-item {
+	padding: 5px;
+	background: #f3f3f3;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.cart-description{
+	padding-bottom: 0;
+	padding-left: 10px;
+	padding-top: 0;
+}
+.remove-icon{
+	float: right;
+}

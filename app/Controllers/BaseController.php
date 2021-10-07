@@ -66,11 +66,19 @@ class BaseController extends Controller
         // fetch Category for header
         $categoryModel = new CategoryModel();
         $categories = $categoryModel->select('id,name,image,description')->findAll();
+        $cart_quantity = 0;
+
+        if (isset($_SESSION['cart'])) {
+            foreach ($_SESSION['cart'] as $cart) {
+                $cart_quantity += $cart['quantity'];
+            }
+        }
 
         $this->view_data = ['header_categories'=> $categories,
                             'controller' => $currencyController,
                             'currencies' => $_SESSION['currency']['currencies'],
                             'default_currency' => $_SESSION['currency']['default'],
+                            'cart_quantity' => $cart_quantity,
                             ];
     }
 

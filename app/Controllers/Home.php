@@ -88,16 +88,5 @@ class Home extends BaseController
     	return view('frontend/product-single', $this->view_data);
     }
 
-	public function cart()
-	{
-		$data = [
-    		'page_title' => $page_title,
-	      ];
-	     
-	    $this->view_data += $data;
-
-		return view('frontend/cart', $this->view_data);
-	}
-
 
 }

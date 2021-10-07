@@ -47,7 +47,7 @@ $('.add_to_cart').click(function(e) {
 
 				if (data.new == 1) {
 	    			$('#cart-list').append(cart_item);
-					$('#increamentCart').html(parseInt($('#increamentCart').html(), 10)+1);
+					$('#increamentCart').html(parseInt($('#increamentCart').html(), 10)+data.quantity);
 				}else{
 
 					$('#item-'+product_id).remove();

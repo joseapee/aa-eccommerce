@@ -45,7 +45,9 @@
 	<!-- plugins -->
 	<link rel="stylesheet" type="text/css" href="/plugins/sweetalert2/sweetalert2.min.css">
 	
-	
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/8ed168bb40.js" crossorigin="anonymous"></script>
+
 	<!--[if lt IE 9]>
 		<script src="js/html5/respond.min.js"></script>
     <![endif]-->
@@ -134,11 +136,7 @@
 									<a aria-expanded="true" aria-haspopup="true" data-toggle="dropdown" id="cart" class="btn dropdown-toggle" title="Add To Cart" href="#">
 										<i class="icon icon-ShoppingCart"></i>
 										<small id="increamentCart">
-										<?php if (isset($_SESSION['cart'])): ?>
-											<?= count($_SESSION['cart']) ?>
-										<?php else: ?>
-											0
-										<?php endif ?>
+											<?= $cart_quantity ?>
 										</small>
 									</a>
 									<ul id="cart-list" class="dropdown-menu no-padding">
@@ -211,7 +209,7 @@
 						<div class="navbar-collapse collapse navbar-right" id="navbar">
 							<ul class="nav navbar-nav">
 								<li class="active dropdown">
-									<a href="#" title="Home" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
+									<a href="/" title="Home" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
 								</li>
 								<li class="dropdown">
 									<a href="#" title="Home" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Categories </a>
